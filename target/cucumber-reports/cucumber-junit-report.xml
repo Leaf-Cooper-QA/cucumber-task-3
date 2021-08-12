@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="10.539">
+    <testcase classname="Alert page" name="Title of your scenario" time="3.928">
+        <system-out><![CDATA[Given I am on "http://way2automation.com/way2auto_jquery/alert.php#load_box".passed
+And I am on the correct tab.................................................passed
+And I am on iframe 1........................................................passed
+When I click the alert button...............................................passed
+And I submit and close the alert............................................passed
+Then my message should be visible...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Demo login" name="Title of your scenario" time="3.077">
+        <system-out><![CDATA[Given I am on "http://thedemosite.co.uk/addauser.php".......................passed
+When I enter my username....................................................passed
+And I enter my password.....................................................passed
+And I click save............................................................passed
+And I click to the next page................................................passed
+And I enter my username again...............................................passed
+And I enter my password again...............................................passed
+And I click test............................................................passed
+Then I should see my login is succesful.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Select page" name="Title of your scenario" time="3.354">
+        <system-out><![CDATA[Given I am on "http://way2automation.com/way2auto_jquery/selectable.php#load_box".passed
+And I am on iframe 0........................................................passed
+When I select the item......................................................passed
+Then I can verify the item is selected......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
